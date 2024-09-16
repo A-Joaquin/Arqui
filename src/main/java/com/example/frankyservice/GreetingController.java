@@ -19,6 +19,7 @@ public class GreetingController {
     public String greetingWithName(@PathVariable String name) {
         return greetingService.getGreetingWithName(name);
     }
+
     @GetMapping("/{name}/{lang}")
     public String getGreetingWithNameAndLanguage(
             @PathVariable("name") String name,
