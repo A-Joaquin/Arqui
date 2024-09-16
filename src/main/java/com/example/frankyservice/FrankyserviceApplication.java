@@ -11,4 +11,5 @@ public class FrankyserviceApplication {
 		SpringApplication.run(FrankyserviceApplication.class, args);
 	}
 
+
 }
